@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "nikvas drifter",
+    "mongoUri": "mongodb+srv://nikvasyl:louygdgbqr1599@cluster0.i2b1k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

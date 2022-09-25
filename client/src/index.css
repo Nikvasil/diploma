@@ -1,0 +1,187 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+html {
+  background-color: black;
+  font-family: 'Franklin Gothic Book';
+  font-size: 20px;
+}
+
+div.profileCard {
+  position: relative;
+  color: #ffffff;
+  width: fit-content;
+  margin-left: 300px;
+  margin-top: 160px;
+}
+
+div.feedbackCard {
+  position: relative;
+  color: #ffffff;
+  font-size: 32px;
+  margin-left: 400px;
+  margin-top: 160px;
+}
+
+div.profileDivider {
+  background-color: #ffb300;
+  height: 2px;
+  width: 600px;
+}
+
+div.vehicle {
+  text-align: center;
+  position: relative;
+  margin-top: 300px;
+  margin-bottom: 80px;
+  color: #ffb300;
+  font-size: 62px;
+}
+
+div.vehicleCard {
+  text-align: center !important;
+  position: relative;
+  color: #ffffff;
+}
+
+div.createTrip {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 60px;
+  color: #ffb300;
+  font-size: 62px;
+}
+
+div.tripCard {
+  color: white;
+  background-color: #212121;
+  border-radius: 5px;
+  width: 650px;
+  margin-bottom: 20px;
+}
+
+div.tripCard:hover {
+  background-color: #424242;
+  cursor: pointer;
+}
+
+div.tripCity {
+  margin-left: 36px;
+  font-size: 32px;
+  height: 80px;
+}
+
+div.tripDetail {
+  margin-top: 24px;
+}
+
+div.tripDriver {
+  margin-top: 24px;
+  height: 50px;
+}
+
+div.tripDetail {
+  margin-left: 36px;
+  height: 40px;
+}
+
+table {
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+tr:hover {
+  background-color: #212121;
+}
+
+tr.tripItem:hover {
+  background-color: black;
+}
+
+tr.tripName:hover {
+  cursor: pointer;
+}
+
+th.tripItem:hover {
+  color: #ffb300 !important;
+  cursor: pointer;
+  border-bottom: 2px solid #ffb300 !important;
+}
+
+li.addVehicle {
+  width: 600px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li.addVehicle:hover {
+  background-color: #212121;
+}
+
+li.userAge,
+li.userGender {
+  font-size: 22px;
+  color: grey;
+}
+
+li.userGender {
+  margin-bottom: 80px;
+}
+
+li.tripDetail {
+  font-size: 22px;
+  color: grey;
+}
+
+span.userName {
+  font-size: 36px;
+}
+
+span.userEmail,
+span.userTel {
+  font-size: 24px;
+}
+
+span.vehicleItem {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+span.tripPrice {
+  margin-left: 420px;
+}
+
+i.prefix {
+  color: #ffb300 !important;
+}
+
+.input-field input:focus+label {
+  color: #ffb300 !important;
+}
+
+.row .input-field input:focus {
+  border-bottom: 1px solid #ffb300 !important;
+  box-shadow: 0 1px 0 0 #ffb300 !important
+}
+
+.seats button:hover {
+  color: #ffb300 !important;
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
+  border: 2px solid #ffb300 !important;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+  background-color: #ffb300;
+}
